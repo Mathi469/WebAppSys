@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Journeyman {
-//    @Autowired
-///   @Qualifier("pleasePaint")
+@Autowired
+@Qualifier("pleaseClean")
     Work work;
 
     public void performWork() {
